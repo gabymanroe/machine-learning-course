@@ -1,7 +1,8 @@
-Question 1
+**Question 1**<br>
 We're working with a list of flowers and some information about each one. The create_file function writes this information to a CSV file. 
 The contents_of_file function reads this file into records and returns the information in a nicely formatted block. 
 Fill in the gaps of the contents_of_file function to turn the data in the CSV file into a dictionary using DictReader.
+```
 import os
 import csv
 
@@ -14,7 +15,6 @@ def create_file(filename):
     file.write("iris,blue,perennial\n")
     file.write("poinsettia,red,perennial\n")
     file.write("sunflower,yellow,annual\n")
-
 
 # Read the file contents and format the information about each row
 def contents_of_file(filename):
@@ -35,10 +35,12 @@ def contents_of_file(filename):
 
 #Call the function
 print(contents_of_file("flowers.csv"))
+```
 
-Question 2
+**Question 2**<br>
 Using the CSV file of flowers again, fill in the gaps of the contents_of_file function to process the data without turning it into a dictionary. 
 How do you skip over the header record with the field names?
+```
 import os
 import csv
 
@@ -74,8 +76,9 @@ def contents_of_file(filename):
 
 #Call the function
 print(contents_of_file("flowers.csv"))
+```
 
-Question 3
+**Question 3**<br>
 In order to use the writerows() function of DictWriter() to write a list of dictionaries to each line of a CSV file, what steps should we take? 
 (Check all that apply)
 - [x] Create an instance of the DictWriter() class
@@ -83,14 +86,14 @@ In order to use the writerows() function of DictWriter() to write a list of dict
 - [x] Open the csv file using with open
 - [ ] Import the OS module
 
-Question 4
+**Question 4**<br>
 Which of the following is true about unpacking values into variables when reading rows of a CSV file? (Check all that apply)
 - [x] We need the same amount of variables as there are columns of data in the CSV 
 - [x] Rows can be read using both csv.reader and csv.DictReade
 - [x] An instance of the reader class must be created first
 - [ ] The CSV file does not have to be explicitly opened
 
-Question 5
+**Question 5**<br>
 If we are analyzing a file's contents to correctly structure its data, what action are we performing on the file?
 - [ ] Writing
 - [ ] Appending
