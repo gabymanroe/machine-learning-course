@@ -28,37 +28,48 @@
 - [ ] Python has many platform-specific tools, like Bash or Powershell
 - [ ] Python is an object-oriented language not fit for general purpose scripting
 
-6. Complete the code so that the string "I am writing Python code!" will print to the screen. Remember that syntax precision is important in programming languages. A missing capital letter, spelling error, or punctuation mark can produce errors.
+6. Complete the code so that the string "I am writing Python code!" will print to the screen. Remember that syntax precision is important in programming languages. 
+A missing capital letter, spelling error, or punctuation mark can produce errors.
+```
 # Replace the blanks with the correct code and syntax:
 print("I am writing Python code!")
 # Should print: I am writing Python code!
+```
 
 7. What should be the output of the expression below? 
+```
 print((9-3)/(2*(1+2)))
+```
 - [x] 1.0
 - [ ] 0.28
 - [ ] 19.36
 - [ ] 49.0
 
 8. Keeping in mind there are 60 seconds per minute , write a program that calculates how many seconds there are in an hour .Print the result to the screen. Note: Your result should be in the format of just a number, not a sentence.
+```
 # Enter code here:
 seconds = 60
 seconds_in_an_hour = 60*seconds
 print(seconds_in_an_hour)
 # Should print 3600
+```
 
 9. The market is six miles away from your home. The school is two miles away from your home. Use Python to calculate how much further the market is from your home than the school (in miles). Note: Your result should be in the format of a number, not a sentence.
+```
 # Should print 4
 market = 6 
 school = 2
 market_from_home = market - school
 print(market_from_home)
+```
 
 10. Consider this scenario about using Python to make calculations:
 On a college campus, there are 30 computers in each of the 20 computer labs that are spread across campus.  The computers have a life cycle where they are replaced every five  years. One-fifth of the computers are replaced each year. 
 Fill in the blank to calculate the number of computers that are replaced each year by dividing the total computers by the replacement cycle. Note: Your result should be a number. 
+```
 total_computers = 30*20
 replacement_cycle = 5
 computers_per_year = 1/5*total_computers
 
 print(computers_per_year) # Should print 120.0
+```
