@@ -1,14 +1,13 @@
-Question 1
+**Question 1**<br>
 Fill in the blank using a for loop. With the given list of "filenames", this code should rename all files with the extension .hpp to the extension .h. 
 The code  should then generate a new list called "new_filenames" that contains the file names with the new extension.
 You are given a list of filenames like this:
-filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
+`filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]`
 Output the list with all of the “.hpp” files renamed to “.h”. Leave the other filenames alone. For this question, you must use a for loop to create the list. 
-
+```
 filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
 # Generate new_filenames as a list containing the new filenames
 # using as many lines of code as your chosen method requires.
-
 
 new_filenames = []
 for filename in filenames:
@@ -18,17 +17,17 @@ for filename in filenames:
     else:
         new_filenames.append(filename)
 
-
 print(new_filenames)
 # Should be ["program.c", "stdio.h", "sample.h", "a.out", "math.h", "hpp.out"]
+```
 
-Question 2
+**Question 2**<br>
 Fill in the blank using a list comprehension. With the given list of "filenames", this code should rename all files with the extension .hpp to the extension .h. 
 The code function should then generate a new list called "new_filenames" that contains the filenames with the new extension.
 You are given a list of filenames like this:
-filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
+`filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]`
 Output the list with all of the “.hpp” files renamed to “.h”. Leave the other filenames alone. For this question, you must use list comprehension to create the list. 
-
+```
 filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
 # Generate new_filenames as a list containing the new filenames
 # using as many lines of code as your chosen method requires.
@@ -36,13 +35,14 @@ new_filenames = [filename.replace("hpp", "h") if filename[-3:] == "hpp" else fil
 
 print(new_filenames) 
 # Should print ["program.c", "stdio.h", "sample.h", "a.out", "math.h", "hpp.out"]
+```
 
-Question 3
+**Question 3**<br>
 Create a function that turns text into pig latin. Pig latin is a simple text transformation that modifies each word by:
 1. moving the first character to the end of each word;
 2. then appending the letters "ay" to the end of each word.
 For example, python ends up as ythonpay.
-
+```
 def pig_latin(text):
   say = ""
   # Separate the text into words
@@ -55,26 +55,27 @@ def pig_latin(text):
     
 print(pig_latin("hello how are you")) # Should be "ellohay owhay reaay ouyay"
 print(pig_latin("programming in python is fun")) # Should be "rogrammingpay niay ythonpay siay unfay"
+```
 
-Question 4
+**Question 4**<br>
 Which list method can be used to add a new element to a list at a specified index position?
 - [ ] list.pop(index)
 - [x] list.insert(index, x)
 - [ ] list.add(index, x)
 - [ ] list.append(x)
 
-Question 5
+**Question 5**<br>
 Tuples and lists are very similar types of sequences. What is the main thing that makes a tuple different from a list?
 - [ ] A tuple is mutable
 - [ ] A tuple contains only numeric characters
 - [x] A tuple is immutable
 - [ ] A tuple can contain only one type of data at a time
 
-Question 6
+**Question 6**<br>
 Fill in the blanks to complete the “biography_list” function. The “biography_list” function reads in a list of tuples “people”, which contains the name, age, 
 and profession of each “person”. Then, prints the sentence "__ is _ years old and works as __.". For example, “biography_list([("Ira", 30, "a Chef")])” 
 should print: “Ira is 30 years old and works as a Chef.” 
-
+```
 def biography_list(people):
     # Iterate over each "person" in the given "people" list of tuples. 
     for person in people:
@@ -95,3 +96,4 @@ biography_list([("Ira", 30, "a Chef"), ("Raj", 35, "a Lawyer"), ("Maria", 25, "a
 # Ira is 30 years old and works as a Chef
 # Raj is 35 years old and works as a Lawyer
 # Maria is 25 years old and works as an Engineer
+```
