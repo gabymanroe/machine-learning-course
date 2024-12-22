@@ -5,7 +5,7 @@
 - [ ] A file that gets copied to all machines in the network
 
 2. What’s the syntax of a language?
-- [ ] The rules of how to express things in that language
+- [x] The rules of how to express things in that language
 - [ ] The subject of a sentence
 - [ ] The difference between one language and another
 - [ ] The meaning of the words
