@@ -82,21 +82,21 @@ What is the purpose of initializing the old_domain_email_list in the code from t
 
 **Question 8**<br>
 Why is it considered good practice to use the close() method to close a file after processing it in Python?
-- [ ]To encrypt the file and enhance its security
-- [ ]To permanently delete the file from the system
+- [ ] To encrypt the file and enhance its security
+- [ ] To permanently delete the file from the system
 - [x] To free up system resources and prevent further reading or writing to the file
-- [ ]To ensure the file remains open for other processes to access.
+- [ ] To ensure the file remains open for other processes to access.
 
 **Question 9**<br>
 What is a key benefit of using Python for creating reports and employing regular expressions?
-- [ ]To develop virtual reality applications.
-- [ ]To enhance cybersecurity measures.
+- [ ] To develop virtual reality applications.
+- [ ] To enhance cybersecurity measures.
 - [x] To automate repetitive tasks and data analysis.
-- [ ]To optimize website performance.
+- [ ] To optimize website performance.
 
 **Question 10**<br>
 In the Python script for processing user_emails.csv, what is the purpose of the contains_domain function?
-- [ ]To count the number of email addresses in the CSV file
-- [ ]To encrypt email addresses in the CSV file for security
+- [ ] To count the number of email addresses in the CSV file
+- [ ] To encrypt email addresses in the CSV file for security
 - [x] To check if an email address belongs to a specific domain, using Regular Expressions (RegEx)
-- [ ]To add a new domain to each email address in the CSV file
+- [ ] To add a new domain to each email address in the CSV file
